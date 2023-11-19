@@ -286,7 +286,7 @@ function ResetWarning({ isResetClicked, onReset, onResetClick }) {
     <div
       className={`fixed  ${
         isResetClicked ? "w-screen" : "w-0"
-      } transition-all duration-300 h-screen top-0 left-0 border border-black flex justify-center items-center bg-black bg-opacity-60  overflow-hidden`}
+      } transition-all duration-300 h-screen px-5 top-0 left-0 border border-black flex justify-center items-center bg-black bg-opacity-60  overflow-hidden`}
     >
       <div className="border max-w-sm max-auto shadow-2xl text-center py-8 px-8 rounded-xl bg-gray-50">
         <p className="font-medium text-lg text-red-700 italic">
